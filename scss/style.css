@@ -45,6 +45,7 @@ footer #social i:hover {
   font-style: normal;
   line-height: 1.1;
   text-align: center;
+  font-size: 26px !important;
 }
 
 .container-fluid p {
@@ -92,6 +93,18 @@ a:hover {
 }
 
 /* ==== MEDIA QUERIES ==== */
+@media (min-width: 375px) {
+  .container-fluid h1 {
+    font-size: 30px !important;
+  }
+}
+
+@media (min-width: 600px) {
+  .container-fluid h1 {
+    font-size: 36px !important;
+  }
+}
+
 @media (min-width: 992px) {
   footer {
     height: 70px;
