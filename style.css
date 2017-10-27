@@ -79,6 +79,11 @@ footer #social i:hover {
   padding-bottom: 15px;
 }
 
+.links a,
+.links p {
+  font-size: 1.1em;
+}
+
 .pad-left-30 {
   padding-left: 30px;
 }
