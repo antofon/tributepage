@@ -23,4 +23,5 @@ p {
 
 .row {
   max-width: 62.5em;
+  margin: 50px auto;
 }
