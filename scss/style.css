@@ -1,27 +1,94 @@
+a {
+  text-decoration: none;
+  color: #ebebeb;
+  display: block;
+  font-size: 1.2em;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }
 
-.container-fluid {
-  background: #004e98;
+footer {
+  height: 60px;
+  background-color: #ff6700;
 }
 
-h1 {
+footer p {
+  font-size: 1.2em;
+  font-style: 400;
+  color: #ebebeb;
+  padding: 15px 0 0 15px;
+  text-align: center;
+}
+
+.container-fluid {
+  background: #004e98;
+  min-height: calc(100vh - 61px);
+}
+
+.container-fluid h1 {
   color: #ebebeb;
   font-weight: 400;
   font-style: normal;
   line-height: 1.1;
+  text-align: center;
 }
 
-p {
+.container-fluid p {
   color: #ebebeb;
   font-weight: 300;
   font-style: normal;
-  line-height: 1.3;
-  font-size: 1.4em;
+  line-height: 1.6;
+  font-size: 1.3em;
 }
 
-.row {
-  max-width: 62.5em;
+.container-fluid .row {
+  max-width: 70em;
   margin: 50px auto;
+}
+
+.container-fluid figure figcaption {
+  color: #ebebeb;
+  padding-top: 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.links {
+  padding-bottom: 15px;
+}
+
+.pad-left-30 {
+  padding-left: 30px;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ebebeb;
+}
+
+#bio {
+  margin-top: 20px;
+}
+
+@media (min-width: 992px) {
+  #bio {
+    margin-top: 0;
+  }
+  .container-fluid h1 {
+    text-align: left;
+  }
+  .container-fluid .links {
+    padding-bottom: 0;
+  }
+  footer p {
+    text-align: left;
+  }
 }
